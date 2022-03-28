@@ -1,3 +1,22 @@
-.cmp-title {}
-.cmp-title__text {}
-.cmp-title__link {}
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap%27');
+
+.cmp-title__item-output {
+    width: 550px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+@media(max-width: 780px){
+    .cmp-title__item-output{
+        max-width: 320px;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+    }
+
+}

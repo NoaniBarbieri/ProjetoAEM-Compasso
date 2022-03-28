@@ -1,0 +1,15 @@
+.cmp-color__red {
+    color: rgb(88, 5, 5);
+}
+.cmp-color__orangered {
+    color: orangered;
+}
+​
+.cmp-border-box {
+    box-shadow: none;
+    transition: all .5s ease;
+    &:hover {
+        box-shadow: 0 0 5px #ccc;
+        border-radius: 5px;
+    }
+}
