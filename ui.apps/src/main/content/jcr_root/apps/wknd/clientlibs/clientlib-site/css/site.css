@@ -1,0 +1,129 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/src/index.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js!./node_modules/glob-import-loader/index.js??ruleSet[1].rules[1].use[4]!./src/main/webpack/site/main.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap);
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/src/index.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js!./node_modules/glob-import-loader/index.js??ruleSet[1].rules[1].use[4]!./src/main/webpack/site/main.scss (1) ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************/
+.cmp-button {
+  width: 216px;
+  height: 68px;
+  background: #333333;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+
+.cmp-experiencefragment h1 {
+  width: 133px;
+  height: 25px;
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+}
+
+.cmp-experiencefragment p {
+  width: 287px;
+  height: 17px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #BDBDBD;
+}
+
+.cmp-experiencefragment--footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 780px) {
+  .cmp-experiencefragment--footer {
+    margin-top: 0px;
+  }
+}
+.cmp-color__red {
+  color: #580505;
+}
+
+.cmp-color__orangered {
+  color: orangered;
+}
+
+.cmp-border-box {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.cmp-border-box:hover {
+  -webkit-box-shadow: 0 0 5px #ccc;
+          box-shadow: 0 0 5px #ccc;
+  border-radius: 5px;
+}
+
+.cmp-text {
+  width: 100%;
+  padding-left: 10px;
+  min-width: 300px;
+  min-height: 30px;
+  overflow-wrap: break-word;
+}
+
+.cmp-text__item-output {
+  width: 365px;
+  height: 108px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4F4F4F;
+}
+
+@media (max-width: 780px) {
+  .cmp-text__item-output {
+    max-width: 300px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+  }
+}
+.cmp-title__item-output {
+  width: 550px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  color: #333333;
+}
+
+@media (max-width: 780px) {
+  .cmp-title__item-output {
+    max-width: 320px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+  }
+}
